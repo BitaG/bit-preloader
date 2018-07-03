@@ -1,0 +1,167 @@
+/*admin style*/
+	div#wpwrap{
+		background: #f1f1f1;
+	}
+
+	div.update-nag{
+		display: none !important;
+	}
+
+@media screen and (max-width: 782px){
+	div.bit-body{
+		margin-left: -10px !important;
+	}
+}
+	div.bit-body{
+	    margin-left: -20px;
+	}
+
+	.bithead{
+		min-height: 45vh;
+		background: #4D74ED;
+	}
+
+	.bitplag-brand{
+
+    	text-align: center;
+    	color: #F8F8F8;
+    	padding-top: 8vh;
+	}
+
+	a.brand-text{
+ 		
+ 		color: #fff;
+ 		padding: 3px 9px;
+ 		text-decoration: none;
+ 		transition: 1s;
+	}
+
+	a.brand-text:hover{
+		background: rgba(255, 255, 255, 0.17);
+   	 	border-bottom-left-radius: 4px;
+   		border-bottom-right-radius: 4px;
+    	border-top-left-radius: 4px;
+    	border-top-right-radius: 4px;
+	}
+
+	a.brand-text:focus{
+		box-shadow: none;
+	}
+
+	a.bitplag-otion{
+		border-radius: 2px;
+		background: white;
+		border:1px solid #acacad;
+		padding: 27px 10px 27px 0px;
+    	min-width: 400px;
+   		text-decoration: none;
+    	color:#6d6d6d;
+	}
+	
+	a.bitplag-otion:hover{
+		border-color: #72777c ;
+
+	}
+
+	a.bitplag-otion:focus{
+		box-shadow: none;
+	}
+
+	.bitinfo{
+		display: none;
+		color:#fff;
+    	position: fixed;
+    	background: #4D74ED;
+   		right: 24px;
+    	bottom: 24px;
+    	padding: 27px;
+    	min-width: 282px;
+    	box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+	}
+
+	.bitinfo>i{
+		color:#fff;
+	}
+	.bitinfo>span{
+		margin-left: 20px;
+	}
+
+	.infoblock{
+		width: 60px;
+    	text-align: center;
+   		color:#bcbcbb;
+	}
+	
+	.bit_admin-head{
+		background: #4D74ED;
+    	color: white;
+   		padding: 16px;
+    	font-size: 18px;
+
+	}
+	    
+	a.bit_back{
+		color: white !important;
+    	padding-right: 10px;
+	}
+
+	a.bit_back:focus{
+		border:none;
+		box-shadow: none;
+	}
+	
+	i.icon{
+	    font-size: 24px;
+    	vertical-align: bottom;
+	}
+
+
+
+	input[type="radio"]{
+		display: none;
+	}
+
+	input[type="radio"]:not(:disabled) ~ label {
+  		cursor: pointer;
+	}
+
+	input[type="radio"]:disabled ~ label {
+ 		color:#a4b0be;
+  		border-color:#a4b0be;
+  		box-shadow: none;
+  		cursor: not-allowed;
+	}
+
+	label.bit-radio {
+		color: #6d6d6d;
+  		height: auto;
+ 		display: block;
+ 		background: white;
+  		border: 1px solid #acacad;
+  		border-radius: 2px;
+  		padding: 1rem;
+  		margin-bottom: 1rem;
+  		text-align: center;
+  		
+  		position: relative;
+	}
+	
+	label.bit-radio:hover{
+		border-color: #72777c;
+	}
+
+	input[type="radio"]:checked + label {
+ 		border: 1px solid #4D74ED;
+ 		box-shadow: 0px 3px 10px -2px rgba(161, 170, 166, 0.5);
+	}
+	
+	input[type="radio"]:checked + label:after{
+		    position: absolute;
+    content: ' ';
+    bottom: 6px;
+    right: 7px;
+    width: 15px;
+    height: 15px;
+    border-radius: 5px;
+    background: #4D74ED;
+	}
